@@ -1,0 +1,8 @@
+﻿<Application x:Class="AppDemo.Shell.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             >
+    <Application.Resources>
+        <ResourceDictionary Source="/AppDemo.Shared;component/Styles/GeneralStyle.xaml" />
+    </Application.Resources>
+</Application>
