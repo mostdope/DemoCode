@@ -1,5 +1,9 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Linq;
+using System.Net;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
 using AppDemo.Sorter.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -22,5 +26,6 @@ namespace AppDemo.Sorter.Tests
             var result = sorter.Sort(new QuickSortStrategy(), array);
             Assert.IsTrue(result.Last() > result.First());
         }
+
     }
 }
